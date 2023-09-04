@@ -1,0 +1,92 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <button class="btn">
+            Click me
+        </button>
+        <script>
+            let users = [
+                { name: "Martin", lastName: "Trajkov", age: 28 },
+                { name: "Daniel", lastName: "Trajkovski", age: 45 },
+                { name: "Laura", lastName: "Trajkova", age: 23 },
+            ];
+            // Martin Trajkov
+            // let mapUsers = users.map((user) => {
+            //    let fullName = user.name + ' ' + user.lastName + ' age: ' + user.age;
+            //    // in map method we must always have return
+            //    return fullName; 
+            // })
+            // console.log(mapUsers);
+            // map always returns new array
+            // it does not change the size of the original array
+            // Kreirajte niza od avtomobili kaj sto vnatre kje ima
+            // godina, marka i model i potoa so map da go ispecatime
+            // modelot i koja godina e
+
+            // filter is used to provide new array depending on certain criteria
+            let result = users.filter((user) => user.age < 30);
+            let result1 = users.filter((user) => user.age > 30);
+            // console.log(result1);
+
+            // find is used to find an instance inside the array
+
+            let findResult = users.find((user) => user.name === 'Laura')
+            // console.log(findResult);
+
+            // da napraime filter na site avtomobili koj se postari
+            // od 2010 godina
+
+            // da probate dali postoi avtomobil so marka BMW
+
+            let fruits = ["mango", "orange", "apple", "lemon", "kiwi"];
+            let fruit1 = fruits[0];
+            let fruit3 = fruits[2];
+            // console.log(fruit1, fruit3);
+            let [fruit11,,,fruit33] = fruits;
+            // console.log(fruit11, fruit33);
+
+            const person = {
+                firstName: "Martin",
+                lastName: "Trajkov",
+                age: 28,
+                hobies: {
+                    hoby1: "reading",
+                    hoby2: "football",
+                }
+            }
+
+            const person1 = {
+                firstName: "Laura",
+                lastName: "Trajkova",
+                age: 28,
+                hobies: {
+                    hoby1: "reading",
+                    hoby2: "football",
+                }
+            }
+
+
+            // console.log(person.firstName, person.age, person.hobies.hoby1);
+            if(person.age > 30) {
+                console.log("older than 30");
+            }
+
+            const { firstName, age, hobies: {hoby1} } = person;
+            const { name, age1 } = person1;
+            
+            
+
+            // if(firstName === 'Martin')
+            // {
+            //     console.log("hello");
+            // }
+
+            let fruits2 = ["mango", "apple", "orange", "pineapple", "banana"];
+
+            let [firstFruit, secondFruit, ...rest] = fruits2;
+            
+            console.log(firstFruit, secondFruit, rest);
+        </script>
+    </body>
+</html>
