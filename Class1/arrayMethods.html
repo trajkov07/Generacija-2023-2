@@ -73,8 +73,9 @@
             }
 
             const { firstName, age, hobies: {hoby1} } = person;
-            const { name, age1 } = person1;
+            const { firstName: name, age: lauraAge } = person1;
             
+            console.log(firstName, name, age, lauraAge);
             
 
             // if(firstName === 'Martin')
@@ -86,7 +87,7 @@
 
             let [firstFruit, secondFruit, ...rest] = fruits2;
             
-            console.log(firstFruit, secondFruit, rest);
+            // console.log(firstFruit, secondFruit, rest);
         </script>
     </body>
 </html>
