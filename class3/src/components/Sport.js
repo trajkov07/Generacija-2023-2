@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export function Sport(props) {
   console.log(props);
   const name = props.name;
@@ -10,3 +12,8 @@ export function Sport(props) {
     </div>
   );
 }
+
+Sport.propTypes = {
+  name: PropTypes.string.isRequired,
+  sport: PropTypes.string.isRequired,
+};
