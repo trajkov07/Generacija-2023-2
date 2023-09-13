@@ -5,6 +5,7 @@ import { Sport2 } from "./components/Sport2";
 import { Sport3 } from "./components/Sport3";
 import { Player } from "./components/Player";
 import { StudentClass } from "./components/StudentClass";
+import { File } from "./components/NewFile";
 
 function App() {
   let sportsAndPeople = [
@@ -54,8 +55,8 @@ function App() {
   return (
     <div className="App">
       {/* <h1>Hello from React props</h1> */}
-      {/* <Sport name={123} /> */}
-      <Sport name="Martin" sport="Tenis" />
+      <Sport />
+      {/* <Sport name="Martin" sport="Tenis" /> */}
       {/* <Sport name="Laura" sport="Tenis" />
       <Sport name="Vedran" sport="Table Tenis" /> */}
       {/* <Sport />
@@ -74,6 +75,7 @@ function App() {
       {/* <Player igrac={gamer} /> */}
       {/* <StudentClass student={student} />
       <StudentClass student={student2} /> */}
+      <File />
     </div>
   );
 }
