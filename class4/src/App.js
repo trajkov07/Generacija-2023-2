@@ -29,8 +29,8 @@ function App() {
       {/* <User user={user} user1={user1} shouldShowUser={1} /> */}
       {/* <User user1={user1} /> */}
       <br />
-      {/* <State /> */}
-      <Dates />
+      <State />
+      {/* <Dates /> */}
     </div>
   );
 }
