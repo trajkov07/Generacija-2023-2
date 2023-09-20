@@ -4,6 +4,7 @@ export const Movie = () => {
   //   const [counter, setCounter] = useState(0);
   const [movie1Votes, setMovie1Votes] = useState(0);
   const [movie2Votes, setMovie2Votes] = useState(0);
+  const [showUser, setShowUser] = useState(false);
 
   useEffect(() => {
     console.log("Voting");
