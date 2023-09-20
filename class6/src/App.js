@@ -2,14 +2,15 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Todo } from "./components/Todo";
 import { useState, useEffect } from "react";
+import { SimpleForm } from "./components/SimpleForm";
 
 function App() {
-  // let listOfTodos = [
+  // let firstListOfTodos = [
   //   { text: "Learn React", done: false },
   //   { text: "Go to the gym", done: false },
   // ];
 
-  // const [todos, setTodos] = useState(listOfTodos);
+  // const [todos, setTodos] = useState(firstListOfTodos);
 
   const [todos, setTodos] = useState([
     { id: 1, text: "Learn React", done: false },
@@ -54,22 +55,24 @@ function App() {
     ]);
   }
 
-  // PAUZA DO 21:15
+  // PAUZA DO
 
   return (
     <div className="App">
-      <h1>Welcome to class 6</h1>
-      <input
+      {/* <h1>Welcome to class 6</h1> */}
+      {/* <input
         placeholder="Enter new Todo"
         value={newTodo}
         onChange={(e) => {
           setNewTodo(e.target.value);
         }}
       />
+
       <br />
       <button onClick={addTodo}>Add TODO</button>
       <hr />
-      <Todo listOfTodos={todos} markTodoAsDone={markTodoAsDone} />
+      <Todo listOfTodos={todos} markTodoAsDone={markTodoAsDone} /> */}
+      <SimpleForm />
     </div>
   );
 }

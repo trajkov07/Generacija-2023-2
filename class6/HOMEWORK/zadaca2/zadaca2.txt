@@ -1,0 +1,13 @@
+Da se kreira aplikacija slicna na zadacata
+od casot za TODOs, da imame nekoja pocetna lista
+so avtomobili i da imame moznost za dodavanje
+na nov avtomobil vo taa lista. 
+Do sekoj avtomobil od listata da ima kopce Buy
+so koe bi se kupil avtomobilot i bi se prefrlil 
+vo drugata lista odnosno listata na OWned Cars
+
+BONUS: moze da se dodade za sekoj avtomobil 
+da ima quantity, odnosno kolku avtomobili postojat
+od toj tip i na toj nacin da se regulira 
+kolku od niv mozat da se kupat i dokolku se 
+kupeni site da go snema od listata za prodazba.

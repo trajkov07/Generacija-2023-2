@@ -1,0 +1,10 @@
+Da se kreira aplikacijata od slikata,
+da imame firstName, lastName, email , password
+i godini i tie da se cuvaat vo state. Tie vrednosti
+od stejtot da se pokazuvaat vo tabela 
+no da ima moznost preku kopce da se krijat i
+pokazuvaat. 
+
+BONUS: Pazete na tekstot na kopceto, dokolku 
+treba da se pokazat tekstot da bide Show Results
+dokolku treba da se skrijat da bide Hide Results
