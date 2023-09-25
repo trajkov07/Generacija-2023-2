@@ -1,0 +1,12 @@
+Da napravime slicen primer na onoj sto go napravivme na predavanjata. 
+
+Neka imame forma vo koja imame ime, prezime i telefonski broj 
+i neka na submit na taa forma, se proveruvaat slednive validacii 
+
+imeto mora da bide najmalku 3 karakteri no najmnogu 20
+prezimeto mora da bide najmalku 5 karakteri no najmnogu 20
+telefonskiot broj, zadolzitelno e da bide brojki i da ima tocno 9 brojki
+
+dokolku nekoi od ovie validacii ne e zadovoleno da se prikaze soodveten error 
+pod negovoto pole a dokolku site se zadovoleni 
+da se napravi da ja snema formata i da se prikaze nekoj tekst vo h1 formata bese ispratena.

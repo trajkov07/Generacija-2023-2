@@ -1,13 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+export const KorisnikContext = React.createContext();
+
+const user = {
+  name: "Martin",
+  surname: "Trajkov",
+  jobPosition: "Developer",
+  hobby: "Movies",
+  city: "Skopje",
+  street: "Jane Sandanski",
+  number: 222,
+};
+
 root.render(
   <React.StrictMode>
-    <App />
+    <KorisnikContext.Provider value={user}>
+      <App />
+    </KorisnikContext.Provider>
   </React.StrictMode>
 );
 
