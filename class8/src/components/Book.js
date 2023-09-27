@@ -1,3 +1,10 @@
+import { useParams } from "react-router-dom";
+
 export const Book = () => {
-  return <h1>Book</h1>;
+  const bookList = [{}];
+
+  // ova id e ona sto se naoga vo app.js vo dinamickata ruta za book
+  const { id } = useParams();
+
+  return <h1>Book {id}</h1>;
 };
