@@ -4,7 +4,7 @@ import React from "react";
 
 export const UserInfo = () => {
   const context = React.useContext(User2Context);
-
+  console.log(context);
   return (
     <div>
       <hr />
@@ -12,6 +12,7 @@ export const UserInfo = () => {
       <p>Theme used: {context.theme}</p>
       <p>Font used: {context.font}</p>
       <p>Role: {context.role}</p>
+      <h1>{context.film.name}</h1>
     </div>
   );
 };

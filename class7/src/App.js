@@ -22,6 +22,10 @@ function App() {
     number: 222,
   };
 
+  const movie = {
+    name: "Shutter Island",
+  };
+
   return (
     <div className="App">
       {/* <h1>Hello from class 7</h1> */}
@@ -32,7 +36,15 @@ function App() {
       {
         // we must use value in the provider it is reserved word
       }
-      <User2Context.Provider value={{ theme: "dark", font: 22, role: "ADMIN" }}>
+      <User2Context.Provider
+        value={{
+          theme: "dark",
+          font: 22,
+          role: "ADMIN",
+          korisnik: user,
+          film: movie,
+        }}
+      >
         <Homepage />
         <UserInfo />
       </User2Context.Provider>
