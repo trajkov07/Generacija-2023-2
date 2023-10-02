@@ -18,3 +18,4 @@ imajte ja listata i vo movies i vo Movie komponenta
 
 BONUS: listat da bide samo vo app.js a preku props prakajte ja vo
 komponentite sto vi trebaat
+
