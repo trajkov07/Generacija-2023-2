@@ -33,3 +33,5 @@ export const BookLayout = () => {
     </>
   );
 };
+
+// PAUZA DO 20:58

@@ -19,3 +19,12 @@ imajte ja listata i vo movies i vo Movie komponenta
 BONUS: listat da bide samo vo app.js a preku props prakajte ja vo
 komponentite sto vi trebaat
 
+
+DOPOLNUVANJE: 
+Da napraime da se prakjaat query parametri pri navigiranjeto 
+do nov film, mozete direktno vo to propertyto vo Link za New Movie
+da gi stavite so ? nesto kao <Link to="/movies/new?">New movie</Link>
+
+parametrite da bidat name (ime na film) i genre i potoa ovie
+query parametri da se zemat vo komponetata za new movie i tamu 
+da se prikazat vo nekoj html elementi
