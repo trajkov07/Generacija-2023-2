@@ -1,0 +1,19 @@
+NA CAS:
+Da napraime get request do https://rickandmortyapi.com/api/character 
+i neka slednive informacii se prikazat vo nekoja lista
+id, name i status na karakterot
+
+ZA DOMASNA: 
+Da ja prikazime i lokacijata za sekoj karakter i pri klik 
+na nea da se dadat podetalni informacii (bez listite vnatre)
+
+Da gi prikazime i episodite za karakterot i pri klik 
+na episoda da se dadat podetalni informacii (bez listite vnatre)
+
+
+BONUS: 
+Da kreirame paginacija za ova api i za karakterite
+da imame nekoi kopcinja kaj sto kje imame strani 1,2,3 ....
+primer slicen imate na time.mk i na mnogu drugi strani 
+
+

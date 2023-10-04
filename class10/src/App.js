@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { API_URL } from "./uttils/constants";
 import { Albums } from "./components/Albums";
 import { Gallery } from "./components/Gallery";
+import { Motivation } from "./components/Motivation";
 
 function App() {
   const [albums, setAlbums] = useState([]);
@@ -43,19 +44,15 @@ function App() {
         <li>
           <Link to="/gallery">Gallery</Link>
         </li>
+        <li>
+          <Link to="/motivation">Motivation</Link>
+        </li>
       </ul>
 
       <Routes>
         <Route
           path="/albums"
-          element={
-            <Albums
-              listOfAlbums={albums}
-              deleteAlbum={deleteAlbum}
-              closePhoto={closePhoto}
-              // NE TREBA VO ALBUMSSS TREBA VO GALLERY!!!!
-            />
-          }
+          element={<Albums listOfAlbums={albums} deleteAlbum={deleteAlbum} />}
         />
         <Route
           path="/gallery"
@@ -68,6 +65,7 @@ function App() {
             />
           }
         />
+        <Route path="/motivation" element={<Motivation />} />
       </Routes>
     </div>
   );
