@@ -1,0 +1,8 @@
+Da go iskoristime slednovo API https://www.themealdb.com/api/json/v1/1/random.php
+i da kreirame aplikacija koja kje ni prikazuva random hrana 
+
+Vo nekoja komponenta pokazete gi slednive podatoci za hranata
+
+strMeal, strCategory, strArea i strInstructions 
+
+* Iskoritete axios a ne fetch za povik do API-to

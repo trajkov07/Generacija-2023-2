@@ -1,0 +1,11 @@
+Slicna aplikacija na ona sto go napraivme na cas, da kreirate
+dve kopcinja, ednoto za increment drugoto za decrement za vrednost 1
+Stejtot najprvin da ni bide 0 i preku kopcinjata da se menuva
+(preku dispatch), da imame dve akcii increment i decrement za 
+koj kje imate poseben reducer. 
+
+
+Bonus: Da kreriame nova komponenta slicna na salary, koja kje imame
+input so broj i dve kopcinja, ednoto kopce da ja dodava taa vrednosta
+a drugoto kopce da go pravi istoto so asinhrono posle 3 sekundi
+koristete thunk middleware
