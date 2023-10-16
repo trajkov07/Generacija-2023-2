@@ -1,0 +1,100 @@
+body{
+  background-image: url(https://user-images.githubusercontent.com/21046633/81761062-51203e80-949f-11ea-9d94-824e11530cf3.png);
+  color:darkturquoise;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.character-img{
+border-radius: 50%;
+border: 3px solid yellow;;
+box-shadow: 5px 5px 10px #ffe400;
+}
+
+.main-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.link{
+  color: yellow;
+  text-shadow: 1px 1px 1px #ffe400;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.episodes{
+  color: #ffe400;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* pagination */
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pagination button {
+  width: 40px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: transparent;
+  color: #eee;
+  border-color: #eee;
+}
+
+.pagination button.active {
+  font-weight: 900;
+  border-color: #101010;
+  background: #ffe400;
+  color: #101010;
+}
