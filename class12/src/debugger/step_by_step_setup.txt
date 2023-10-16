@@ -1,0 +1,20 @@
+1. Vo visual studio code odime na levata strana vo Run and Debug view (shortcut za ova e Ctrl+Shift+D)
+2. Izbirame create a launch.json file 
+3. Go odbirame koj browser ni treba vo nasiot slucaj odbravme Chrome Web App 
+4. Go menuvame samo url to od 8080 vo 3000
+    fajlot treba da izgleda vaka 
+    {
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Launch Edge against localhost",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
+
+5. Se osiguruvame deka nasata aplikacija vekje raboti ako ne raboti treba da ja startuvame so npm start 
+6. Pritisikame F5 ili na zelenata strelka sto se naoga gore levo i startuvame nova instanca koja e vo debug state.

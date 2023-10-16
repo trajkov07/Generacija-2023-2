@@ -3,6 +3,7 @@ import "./App.css";
 import { Nav } from "./components/Nav";
 import { Routes, Route } from "react-router-dom";
 import { Cake } from "./components/Cake";
+import { Comments } from "./components/Comments";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/cake" element={<Cake />} />
+        <Route path="/comments" element={<Comments />} />
       </Routes>
     </div>
   );

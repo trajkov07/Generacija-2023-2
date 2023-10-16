@@ -2,8 +2,8 @@ import { useSelector, useDispatch } from "react-redux";
 import { buyCake, restockCakes } from "../redux/actions/CakeActions";
 
 export const Cake = () => {
-  const cakes = useSelector((state) => state.cakes);
-  const message = useSelector((state) => state.message);
+  const cakes = useSelector((state) => state.CakeReducer.cakes);
+  const message = useSelector((state) => state.CakeReducer.message);
   const dispatch = useDispatch();
 
   return (
